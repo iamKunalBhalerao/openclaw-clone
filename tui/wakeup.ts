@@ -26,7 +26,6 @@ export async function runWakeUp() {
   let ascii: string;
   try {
     ascii = figlet.textSync("codeclaw", { font: BANNER_FONT });
-    console.log("hwll");
   } catch (error) {
     console.log(error);
     ascii = figlet.textSync("codeclaw", { font: "Standard" });

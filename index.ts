@@ -1,5 +1,4 @@
 #!/usr/bin/env bun
-
 import { Command } from "commander";
 import { runWakeUp } from "./tui/wakeup";
 

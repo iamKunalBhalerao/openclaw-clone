@@ -7,7 +7,8 @@
     "codeclaw": "./index.ts"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/marked-terminal": "^6.1.1"
   },
   "peerDependencies": {
     "typescript": "^7"
@@ -15,8 +16,14 @@
   "dependencies": {
     "@clack/core": "^1.5.1",
     "@clack/prompts": "^1.8.1",
+    "@openrouter/ai-sdk-provider": "^3.1.0",
+    "ai": "^7.0.107",
     "chalk": "^6.0.0",
     "commander": "^15.0.0",
-    "figlet": "^1.11.4"
+    "dotenv": "^18.0.1",
+    "figlet": "^1.11.4",
+    "marked": "^18.0.13",
+    "marked-terminal": "^7.3.0",
+    "zod": "^4.6.5"
   }
 }
